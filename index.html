@@ -1,0 +1,53 @@
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>Title</title>-->
+<!--</head>-->
+<!--<body>-->
+<!--<canvas></canvas>-->
+<!--<script src="js/main.js"></script>-->
+<!--</body>-->
+<!--</html>-->
+
+<!--<!DOCTYPE html>-->
+<!--<html>-->
+<!--<head>-->
+<!--    <title>Billardtisch Textur</title>-->
+<!--</head>-->
+<!--<body>-->
+<!--    <canvas id="billardCanvas" width="800" height="600"></canvas>-->
+<!--    <script>-->
+<!--        // JavaScript-Code, um die Textur auf das Canvas zu zeichnen-->
+<!--        var canvas = document.getElementById("billardCanvas");-->
+<!--        var ctx = canvas.getContext("2d");-->
+
+<!--        // Lade die Textur-->
+<!--        var texture = new Image();-->
+<!--        texture.src = "pfad/zur/textur.jpg"; // Ersetze "pfad/zur/textur.jpg" durch den tatsächlichen Pfad zur Texturdatei-->
+
+<!--        // Wenn die Textur geladen wurde, zeichne sie auf das Canvas-->
+<!--        texture.onload = function() {-->
+<!--            var pattern = ctx.createPattern(texture, "repeat");-->
+<!--            ctx.fillStyle = pattern;-->
+<!--            ctx.fillRect(0, 0, canvas.width, canvas.height);-->
+<!--        };-->
+<!--    </script>-->
+<!--</body>-->
+<!--</html>-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Poker Table Texture Canvas</title>
+</head>
+<body>
+    <canvas id="pokerCanvas" width="500" height="500"></canvas>
+
+    <script src="js/pokerCanvas.js"></script>
+
+
+    <canvas id="cardsCanvas" width="1000" height="1000" style="border: solid 1px black;"></canvas>
+    <script src="js/cardsScript.js"></script>
+</body>
+</html>
